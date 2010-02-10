@@ -26,7 +26,7 @@ function current_subpath() {
 }
 
 local colon="%{$fg[blue]%}:%{$reset_color%}"
-PROMPT='%n$colon$RUBY_VERSION %{$fg[blue]%}➜%{$reset_color%} $(git_prompt_info)%{$fg_bold[white]%}$(current_subpath) $ %{$reset_color%}'
+PROMPT='%n$colon$RUBY_VERSION %{$fg[blue]%}in%{$reset_color%} $(git_prompt_info)%{$fg_bold[white]%}$(current_subpath) $ %{$reset_color%}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[green]%}("
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
